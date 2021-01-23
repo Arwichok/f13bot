@@ -9,7 +9,7 @@ from aiogram.dispatcher.webhook import WebhookRequestHandler
 
 
 
-TOKEN = '1461663675:AAEyLq7OaB1YGNnwsJhIbhJ9v4Pd3o9_vrQ'
+TOKEN = 'token'
 W_HOST = 'https://input.cf'
 W_PATH = '/webhook'
 W_URL = W_HOST + W_PATH
