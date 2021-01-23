@@ -103,16 +103,3 @@ if __name__ == '__main__':
         web_app=app
     )
     executor.run_app(host=WA_HOST, port=WA_PORT)
-
-
-
-'''
-    app = web.Application()
-    app.router.add_route('*', W_PATH, WebhookRequestHandler, name='webhook_handler')
-    app.add_routes(routes)
-    executor.on_startup(on_startup)
-    executor.on_shutdown(on_shutdown)
-    executor.run_app(app,
-        host=WA_HOST,
-        port=WA_PORT)
-'''
